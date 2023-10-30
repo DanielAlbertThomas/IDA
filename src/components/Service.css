@@ -1,0 +1,64 @@
+.darkbg{
+    width:1536px;
+}
+
+.service-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%; 
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Plus Jakarta Sans';
+    color: white; 
+    padding: 10px; 
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.data_overlay {
+    position: absolute;
+    top: 200px; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 30px;
+    text-align: center;
+    width: 1206px;
+}
+
+
+
+.logoes {
+    position: absolute;
+    top: 550px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 150px;
+}
+
+.cap{
+    position: absolute;
+    top: 30%; 
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Plus Jakarta Sans';
+    color: white; 
+    padding: 10px; 
+    font-size: 20px;
+    width:1206px;
+    /* text-align: center; */
+
+}
+
+
